@@ -39,9 +39,9 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 
 ## 🛠️ Tecnologias utilizadas
 ### Banco de Dados - PostgreSQL
-
+![PostgreSQL](midia/imagem/Postgres.png)
 ### Ferramentas de Modelagem - Draw.io e BrModeloWeb
-
+![Ferramentas](midia/imagem/BrModelWeb.png)
 ### IDE Banco de dados - PgAdmin
-
+![PgAdmin](midia/imagem/PgAdmin.png)
 
