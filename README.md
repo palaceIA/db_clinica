@@ -1,8 +1,8 @@
- # 🏥 Banco de dados - Clínica Médica
+# 🏥 Banco de Dados - Clínica Médica
 
 Um sistema completo de modelagem para controle de **pacientes**, **agendamentos**, **consultas**, **pagamentos**, **receitas**, **médicos** e suas **especialidades**.
 
-> 📊 Este projeto apresenta a **modelagem conceitual** ,**modelagem lógica** e **modelagem fisica**de um sistema de clínica médica, seguindo boas práticas de banco de dados relacional.
+> 📊 Este projeto apresenta a **modelagem conceitual**, **modelagem lógica** e **modelagem física** de um sistema de clínica médica, seguindo boas práticas de banco de dados relacional.
 
 ---
 
@@ -24,14 +24,15 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 | `Paciente`     | possui → `Agendamento`                     | Um paciente pode ter vários agendamentos                              |
 | `Médico`       | tem → `Especialidade`                      | Um médico pode ter várias especialidades                              |
 | `Agendamento`  | gera → `Pagamento`                         | Um agendamento pode gerar múltiplos pagamentos                        |
-| `Pagamento`    | libera → `Consulta`                        | Uma consulta só ocorre após pagamento ser realizado                   |
+| `Pagamento`    | libera → `Consulta`                        | Uma consulta só ocorre após o pagamento ser realizado                 |
 | `Consulta`     | gera → `Receita`                           | Uma consulta pode gerar nenhuma ou várias receitas                    |
 
 ---
 
+## 🧱 Estrutura da Modelagem
 
-## 🧱 Estrutura da Modelagem Conceitual
-(GitHub)[midia/conceitual.png]
+### 📘 Modelagem Conceitual
+![Modelagem Conceitual](midia/conceitual.png)
 
-## 🧱 Estrutura da Modelagem Lógica
-(GitHub)[midia/logico.png]
+### 🧾 Modelagem Lógica
+![Modelagem Lógica](midia/logico.png)
