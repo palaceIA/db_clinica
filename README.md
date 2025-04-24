@@ -4,6 +4,8 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 
 > 📊 Este projeto apresenta a **modelagem conceitual**, **modelagem lógica** e **modelagem física** de um sistema de clínica médica, seguindo boas práticas de banco de dados relacional.
 
+> Tecnologias utilizadas : **PostgresSQL** , **PgAdmin** , **Draw.IO** , **BrModeloWeb** 
+
 ---
 
 ## 📌 Funcionalidades Modeladas
@@ -32,7 +34,8 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 ## 🧱 Estrutura da Modelagem
 
 ### 📘 Modelagem Conceitual
-![Modelagem Conceitual](midia/conceitual.png)
+![Modelagem Conceitual](midia/modelagem/conceitual.png)
 
 ### 🧾 Modelagem Lógica
-![Modelagem Lógica](midia/logico.png)
+![Modelagem Lógica](midia/modelagem/logico.png)
+
