@@ -1,0 +1,10 @@
+/*Number of consultations made by each doctor*/
+SELECT
+    medico.nome AS "Nome do Médico",
+    COUNT(consulta.id_consulta) AS "Número de Consultas"
+FROM consulta
+INNER JOIN pagamento ON consulta.id_pagamento = pagamento.id_pagamento
+INNER JOIN agendamento ON pagamento.id_agendamento = agendamento.id_agendamento
+INNER JOIN medico ON agendamento.id_medico = medico.id_medico
+GROUP BY medico.id_medico, medico.nome
+ORDER BY "Número de Consultas" DESC;
