@@ -34,8 +34,8 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 ## 🧱 Estrutura da Modelagem
 
 ### 📘 Modelagem Conceitual
-![Modelagem Conceitual](midia/modelagem/conceitual.png)
+![Modelagem Conceitual](midia/modeling/conceitual.png)
 
 ### 🧾 Modelagem Lógica
-![Modelagem Lógica](midia/modelagem/logica.png)
+![Modelagem Lógica](midia/modeling/logica.png)
 
