@@ -11,16 +11,16 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 ## 📂 Estrutura do projeto 
 ```
 db_clinica/
-├── ddl/
-├── dml/
+├── ddl/ <- script create tables
+├── dml/ <- script queries and changes
 │   ├── delete/
 │   └── insert/
 │   └── select/
 │   └── update/
-├── midia/
-│   ├── modeling
-│   ├── select_results
-│   ├── video
+├── midia/ <- modelings , images and video
+│   ├── modeling/
+│   ├── select_results/
+│   ├── video/
 ├── .gitattributes
 ├── LICENSE
 ├── README.md
