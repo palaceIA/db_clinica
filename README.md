@@ -8,7 +8,7 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 
 ---
 
-# 📂 Estrutura do projeto 
+## 📂 Estrutura do projeto 
 ```
 db_clinica/
 ├── ddl/
