@@ -6,8 +6,7 @@ Um sistema completo de modelagem para controle de **pacientes**, **agendamentos*
 
 > Tecnologias utilizadas : **PostgresSQL** , **PgAdmin** , **Draw.IO** , **BrModeloWeb**
 
-### 📘 Apresentação do projeto
-[![Assista ao vídeo](db_clinica/midia/download.png)](https://youtu.be/cKxyVL8Enl4)
+> 🎬 Apresentação do projeto no Youtube : https://youtu.be/cKxyVL8Enl4
 
 ---
 
@@ -23,7 +22,6 @@ db_clinica/
 ├── midia/ <- modelings , images and video
 │   ├── modeling/
 │   ├── select_results/
-│   ├── video/
 ├── .gitattributes
 ├── LICENSE
 ├── README.md
